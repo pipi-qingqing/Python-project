@@ -1,9 +1,14 @@
+from insert import insert
+from delete import delete
+
 def main():
     while True:
         menu()
         a=int(input('请输入：'))
         if a==1:
             insert()
+        if a == 3:
+            delete()
 
 
 def menu():
